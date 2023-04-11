@@ -16,5 +16,6 @@ c = retornar_conexao_sql()
 
 c.execute("SELECT * FROM usuarios")
 rows = c.fetchall()
+
 for row in rows:
     print(row)
